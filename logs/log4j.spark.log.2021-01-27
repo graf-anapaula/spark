@@ -1,0 +1,225 @@
+21/01/27 13:15:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/01/27 13:15:46 INFO SecurityManager: Changing view acls to: grafa
+21/01/27 13:15:46 INFO SecurityManager: Changing modify acls to: grafa
+21/01/27 13:15:46 INFO SecurityManager: Changing view acls groups to: 
+21/01/27 13:15:46 INFO SecurityManager: Changing modify acls groups to: 
+21/01/27 13:15:46 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(grafa); groups with view permissions: Set(); users  with modify permissions: Set(grafa); groups with modify permissions: Set()
+21/01/27 13:15:48 INFO HiveConf: Found configuration file file:/C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/conf/hive-site.xml
+21/01/27 13:15:48 INFO SparkContext: Running Spark version 3.0.1
+21/01/27 13:15:48 WARN SparkConf: Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+21/01/27 13:15:48 INFO ResourceUtils: ==============================================================
+21/01/27 13:15:48 INFO ResourceUtils: Resources for spark.driver:
+
+21/01/27 13:15:48 INFO ResourceUtils: ==============================================================
+21/01/27 13:15:48 INFO SparkContext: Submitted application: sparklyr
+21/01/27 13:15:48 INFO SecurityManager: Changing view acls to: grafa
+21/01/27 13:15:48 INFO SecurityManager: Changing modify acls to: grafa
+21/01/27 13:15:48 INFO SecurityManager: Changing view acls groups to: 
+21/01/27 13:15:48 INFO SecurityManager: Changing modify acls groups to: 
+21/01/27 13:15:48 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(grafa); groups with view permissions: Set(); users  with modify permissions: Set(grafa); groups with modify permissions: Set()
+21/01/27 13:15:48 INFO Utils: Successfully started service 'sparkDriver' on port 54781.
+21/01/27 13:15:48 INFO SparkEnv: Registering MapOutputTracker
+21/01/27 13:15:48 INFO SparkEnv: Registering BlockManagerMaster
+21/01/27 13:15:49 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+21/01/27 13:15:49 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+21/01/27 13:15:49 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+21/01/27 13:15:49 INFO DiskBlockManager: Created local directory at C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\blockmgr-b36378ba-a7b6-48b7-a184-9ff6c73b2777
+21/01/27 13:15:49 INFO MemoryStore: MemoryStore started with capacity 912.3 MiB
+21/01/27 13:15:49 INFO SparkEnv: Registering OutputCommitCoordinator
+21/01/27 13:15:49 WARN Utils: The configured local directories are not expected to be URIs; however, got suspicious values [C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/local]. Please check your configured local directories.
+21/01/27 13:15:49 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+21/01/27 13:15:49 INFO SparkUI: Bound SparkUI to 127.0.0.1, and started at http://127.0.0.1:4040
+21/01/27 13:15:49 INFO SparkContext: Added JAR file:/C:/Users/grafa/OneDrive/Documentos/R/R-4.0.2/library/sparklyr/java/sparklyr-3.0-2.12.jar at spark://127.0.0.1:54781/jars/sparklyr-3.0-2.12.jar with timestamp 1611774949690
+21/01/27 13:15:49 INFO Executor: Starting executor ID driver on host 127.0.0.1
+21/01/27 13:15:49 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 54824.
+21/01/27 13:15:49 INFO NettyBlockTransferService: Server created on 127.0.0.1:54824
+21/01/27 13:15:49 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+21/01/27 13:15:49 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 127.0.0.1, 54824, None)
+21/01/27 13:15:49 INFO BlockManagerMasterEndpoint: Registering block manager 127.0.0.1:54824 with 912.3 MiB RAM, BlockManagerId(driver, 127.0.0.1, 54824, None)
+21/01/27 13:15:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 127.0.0.1, 54824, None)
+21/01/27 13:15:50 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 127.0.0.1, 54824, None)
+21/01/27 13:15:50 INFO SharedState: loading hive config file: file:/C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/conf/hive-site.xml
+21/01/27 13:15:50 INFO SharedState: Setting hive.metastore.warehouse.dir ('C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/hive') to the value of spark.sql.warehouse.dir ('C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/hive').
+21/01/27 13:15:50 INFO SharedState: Warehouse path is 'C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/hive'.
+21/01/27 13:15:50 WARN SharedState: Not allowing to set spark.sql.warehouse.dir or hive.metastore.warehouse.dir in SparkSession's options, it should be set statically for cross-session usages
+21/01/27 13:15:54 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.7 using Spark classes.
+21/01/27 13:15:54 INFO HiveConf: Found configuration file file:/C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/conf/hive-site.xml
+21/01/27 13:15:55 INFO SessionState: Created HDFS directory: C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/hive/grafa
+21/01/27 13:15:55 INFO SessionState: Created HDFS directory: C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/hive/grafa/c3cc6bc5-930a-4555-bf71-d9beb8745ac1
+21/01/27 13:15:55 INFO SessionState: Created local directory: C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/hive/c3cc6bc5-930a-4555-bf71-d9beb8745ac1
+21/01/27 13:15:55 INFO SessionState: Created HDFS directory: C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/hive/grafa/c3cc6bc5-930a-4555-bf71-d9beb8745ac1/_tmp_space.db
+21/01/27 13:15:55 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.7) is C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/hive
+21/01/27 13:15:56 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+21/01/27 13:15:56 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+21/01/27 13:15:56 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+21/01/27 13:15:56 INFO ObjectStore: ObjectStore, initialize called
+21/01/27 13:15:56 INFO Persistence: Propiedad hive.metastore.integral.jdo.pushdown desconocida - vamos a ignorarla
+21/01/27 13:15:56 INFO Persistence: Propiedad datanucleus.cache.level2 desconocida - vamos a ignorarla
+21/01/27 13:15:58 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+21/01/27 13:16:00 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+21/01/27 13:16:00 INFO ObjectStore: Initialized ObjectStore
+21/01/27 13:16:00 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+21/01/27 13:16:00 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore UNKNOWN@192.168.56.1
+21/01/27 13:16:00 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+21/01/27 13:16:00 INFO HiveMetaStore: Added admin role in metastore
+21/01/27 13:16:00 INFO HiveMetaStore: Added public role in metastore
+21/01/27 13:16:00 INFO HiveMetaStore: No user is added in admin role, since config is empty
+21/01/27 13:16:00 INFO HiveMetaStore: 0: get_all_functions
+21/01/27 13:16:00 INFO audit: ugi=grafa	ip=unknown-ip-addr	cmd=get_all_functions	
+21/01/27 13:16:00 INFO HiveMetaStore: 0: get_database: default
+21/01/27 13:16:00 INFO audit: ugi=grafa	ip=unknown-ip-addr	cmd=get_database: default	
+21/01/27 13:16:01 INFO HiveMetaStore: 0: get_database: global_temp
+21/01/27 13:16:01 INFO audit: ugi=grafa	ip=unknown-ip-addr	cmd=get_database: global_temp	
+21/01/27 13:16:01 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+21/01/27 13:16:01 INFO HiveMetaStore: 0: get_database: default
+21/01/27 13:16:01 INFO audit: ugi=grafa	ip=unknown-ip-addr	cmd=get_database: default	
+21/01/27 13:16:01 INFO HiveMetaStore: 0: get_database: default
+21/01/27 13:16:01 INFO audit: ugi=grafa	ip=unknown-ip-addr	cmd=get_database: default	
+21/01/27 13:16:01 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+21/01/27 13:16:01 INFO audit: ugi=grafa	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+21/01/27 13:16:02 INFO CodeGenerator: Code generated in 228.4643 ms
+21/01/27 13:16:02 INFO CodeGenerator: Code generated in 11.689 ms
+21/01/27 13:16:02 INFO SparkContext: Starting job: count at utils.scala:114
+21/01/27 13:16:02 INFO DAGScheduler: Registering RDD 2 (count at utils.scala:114) as input to shuffle 0
+21/01/27 13:16:02 INFO DAGScheduler: Got job 0 (count at utils.scala:114) with 1 output partitions
+21/01/27 13:16:02 INFO DAGScheduler: Final stage: ResultStage 1 (count at utils.scala:114)
+21/01/27 13:16:02 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+21/01/27 13:16:02 INFO DAGScheduler: Missing parents: List()
+21/01/27 13:16:02 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[5] at count at utils.scala:114), which has no missing parents
+21/01/27 13:16:02 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 10.1 KiB, free 912.3 MiB)
+21/01/27 13:16:03 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 912.3 MiB)
+21/01/27 13:16:03 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 127.0.0.1:54824 (size: 5.0 KiB, free: 912.3 MiB)
+21/01/27 13:16:03 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1223
+21/01/27 13:16:03 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[5] at count at utils.scala:114) (first 15 tasks are for partitions Vector(0))
+21/01/27 13:16:03 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+21/01/27 13:16:03 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 0, 127.0.0.1, executor driver, partition 0, PROCESS_LOCAL, 7325 bytes)
+21/01/27 13:16:03 INFO Executor: Running task 0.0 in stage 1.0 (TID 0)
+21/01/27 13:16:03 INFO Executor: Fetching spark://127.0.0.1:54781/jars/sparklyr-3.0-2.12.jar with timestamp 1611774949690
+21/01/27 13:16:03 INFO TransportClientFactory: Successfully created connection to /127.0.0.1:54781 after 37 ms (0 ms spent in bootstraps)
+21/01/27 13:16:03 INFO Utils: Fetching spark://127.0.0.1:54781/jars/sparklyr-3.0-2.12.jar to C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97\userFiles-488c043a-6d73-4bea-bc91-6f52a27b4297\fetchFileTemp4504631850485367749.tmp
+21/01/27 13:16:03 INFO Executor: Adding file:/C:/Users/grafa/AppData/Local/spark/spark-3.0.1-bin-hadoop2.7/tmp/local/spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97/userFiles-488c043a-6d73-4bea-bc91-6f52a27b4297/sparklyr-3.0-2.12.jar to class loader
+21/01/27 13:16:03 INFO ShuffleBlockFetcherIterator: Getting 0 (0.0 B) non-empty blocks including 0 (0.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+21/01/27 13:16:03 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 13 ms
+21/01/27 13:16:03 INFO Executor: Finished task 0.0 in stage 1.0 (TID 0). 2727 bytes result sent to driver
+21/01/27 13:16:03 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 0) in 781 ms on 127.0.0.1 (executor driver) (1/1)
+21/01/27 13:16:03 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+21/01/27 13:16:03 INFO DAGScheduler: ResultStage 1 (count at utils.scala:114) finished in 1.354 s
+21/01/27 13:16:03 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+21/01/27 13:16:03 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+21/01/27 13:16:03 INFO DAGScheduler: Job 0 finished: count at utils.scala:114, took 1.416102 s
+21/01/27 13:16:04 WARN ProcfsMetricsGetter: Exception when trying to compute pagesize, as a result reporting of ProcessTree metrics is stopped
+21/01/27 13:16:04 INFO HiveMetaStore: 0: get_database: default
+21/01/27 13:16:04 INFO audit: ugi=grafa	ip=unknown-ip-addr	cmd=get_database: default	
+21/01/27 13:16:04 INFO HiveMetaStore: 0: get_database: default
+21/01/27 13:16:04 INFO audit: ugi=grafa	ip=unknown-ip-addr	cmd=get_database: default	
+21/01/27 13:16:04 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+21/01/27 13:16:04 INFO audit: ugi=grafa	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+21/01/27 13:16:04 INFO SparkContext: Starting job: count at utils.scala:114
+21/01/27 13:16:04 INFO DAGScheduler: Registering RDD 8 (count at utils.scala:114) as input to shuffle 1
+21/01/27 13:16:04 INFO DAGScheduler: Got job 1 (count at utils.scala:114) with 1 output partitions
+21/01/27 13:16:04 INFO DAGScheduler: Final stage: ResultStage 3 (count at utils.scala:114)
+21/01/27 13:16:04 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 2)
+21/01/27 13:16:04 INFO DAGScheduler: Missing parents: List()
+21/01/27 13:16:04 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[11] at count at utils.scala:114), which has no missing parents
+21/01/27 13:16:04 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 10.1 KiB, free 912.3 MiB)
+21/01/27 13:16:04 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 912.3 MiB)
+21/01/27 13:16:04 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 127.0.0.1:54824 (size: 5.0 KiB, free: 912.3 MiB)
+21/01/27 13:16:04 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1223
+21/01/27 13:16:04 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[11] at count at utils.scala:114) (first 15 tasks are for partitions Vector(0))
+21/01/27 13:16:04 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks
+21/01/27 13:16:04 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 1, 127.0.0.1, executor driver, partition 0, PROCESS_LOCAL, 7325 bytes)
+21/01/27 13:16:04 INFO Executor: Running task 0.0 in stage 3.0 (TID 1)
+21/01/27 13:16:04 INFO ShuffleBlockFetcherIterator: Getting 0 (0.0 B) non-empty blocks including 0 (0.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+21/01/27 13:16:04 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+21/01/27 13:16:04 INFO Executor: Finished task 0.0 in stage 3.0 (TID 1). 2555 bytes result sent to driver
+21/01/27 13:16:04 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 1) in 8 ms on 127.0.0.1 (executor driver) (1/1)
+21/01/27 13:16:04 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+21/01/27 13:16:04 INFO DAGScheduler: ResultStage 3 (count at utils.scala:114) finished in 0.015 s
+21/01/27 13:16:04 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+21/01/27 13:16:04 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
+21/01/27 13:16:04 INFO DAGScheduler: Job 1 finished: count at utils.scala:114, took 0.018496 s
+21/01/27 13:20:27 INFO SparkContext: Invoking stop() from shutdown hook
+21/01/27 13:20:27 INFO SparkUI: Stopped Spark web UI at http://127.0.0.1:4040
+21/01/27 13:20:27 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+21/01/27 13:20:27 INFO MemoryStore: MemoryStore cleared
+21/01/27 13:20:27 INFO BlockManager: BlockManager stopped
+21/01/27 13:20:27 INFO BlockManagerMaster: BlockManagerMaster stopped
+21/01/27 13:20:27 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+21/01/27 13:20:27 WARN SparkEnv: Exception while deleting Spark temp dir: C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97\userFiles-488c043a-6d73-4bea-bc91-6f52a27b4297
+java.io.IOException: Failed to delete: C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97\userFiles-488c043a-6d73-4bea-bc91-6f52a27b4297\sparklyr-3.0-2.12.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:144)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:128)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:91)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1079)
+	at org.apache.spark.SparkEnv.stop(SparkEnv.scala:105)
+	at org.apache.spark.SparkContext.$anonfun$stop$23(SparkContext.scala:2012)
+	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1357)
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:2012)
+	at org.apache.spark.SparkContext.$anonfun$new$35(SparkContext.scala:631)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1932)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at org.apache.hadoop.util.ShutdownHookManager$1.run(ShutdownHookManager.java:54)
+21/01/27 13:20:27 INFO SparkContext: Successfully stopped SparkContext
+21/01/27 13:20:27 INFO ShutdownHookManager: Shutdown hook called
+21/01/27 13:20:27 INFO ShutdownHookManager: Deleting directory C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97\userFiles-488c043a-6d73-4bea-bc91-6f52a27b4297
+21/01/27 13:20:27 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97\userFiles-488c043a-6d73-4bea-bc91-6f52a27b4297
+java.io.IOException: Failed to delete: C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97\userFiles-488c043a-6d73-4bea-bc91-6f52a27b4297\sparklyr-3.0-2.12.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:144)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:128)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:91)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1079)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1932)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at org.apache.hadoop.util.ShutdownHookManager$1.run(ShutdownHookManager.java:54)
+21/01/27 13:20:27 INFO ShutdownHookManager: Deleting directory C:\Users\grafa\AppData\Local\Temp\spark-eda3aa5f-4a0e-42b4-a891-0cd96a4794cf
+21/01/27 13:20:27 INFO ShutdownHookManager: Deleting directory C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97
+21/01/27 13:20:27 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97
+java.io.IOException: Failed to delete: C:\Users\grafa\AppData\Local\spark\spark-3.0.1-bin-hadoop2.7\tmp\local\spark-aa22b8ad-cea8-4998-a5c1-30ede6a20c97\userFiles-488c043a-6d73-4bea-bc91-6f52a27b4297\sparklyr-3.0-2.12.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:144)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:128)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:128)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:91)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1079)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1932)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at org.apache.hadoop.util.ShutdownHookManager$1.run(ShutdownHookManager.java:54)
